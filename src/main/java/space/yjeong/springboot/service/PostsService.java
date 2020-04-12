@@ -5,7 +5,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import space.yjeong.springboot.domain.posts.Posts;
 import space.yjeong.springboot.domain.posts.PostsRepository;
+import space.yjeong.springboot.web.dto.PostsResponseDto;
 import space.yjeong.springboot.web.dto.PostsSaveRequestDto;
+import space.yjeong.springboot.web.dto.PostsUpdateRequestDto;
 
 @RequiredArgsConstructor
 @Service
